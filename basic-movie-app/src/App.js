@@ -1,6 +1,6 @@
 import "./App.css";
 import Movie from "./Componets/Movie";
-
+import Header from "./Componets/Header"
 function App() {
   let Movies = [
     {
@@ -40,7 +40,7 @@ function App() {
   return (
     <>
       <div className="App">
-        Header
+        <Header/>
         <div className="movie">
           {Movies.map((data) => {
             return <Movie {...data} />;
