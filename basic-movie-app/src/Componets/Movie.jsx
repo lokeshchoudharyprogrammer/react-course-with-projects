@@ -1,8 +1,8 @@
 import React from 'react'
 import '../App.css'
-const Movie = ({Title,Year,Runtime,Poster}) => {
+const Movie = ({Title,Year,Runtime,Poster,i}) => {
   return (
-    <div className='s'>
+    <div key={i}  className='s'>
       <img src={Poster} alt="" />
       <p>{Title}</p>
       <p>{Runtime}</p>

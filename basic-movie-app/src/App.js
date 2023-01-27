@@ -53,8 +53,8 @@ function App() {
       <div className="App">
         <Header/>
         <div className="movie">
-          {Movies.map((data) => {
-            return <Movie {...data} />;
+          {Movies.map((data,i) => {
+            return <Movie {...data} {...i}/>;
           })}
         </div>
       </div>
