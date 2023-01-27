@@ -35,7 +35,18 @@ function App() {
       Title: "The Notebook",
       Year: "2004",
       Runtime: "123 min",
+      Poster:
+        "https://m.media-amazon.com/images/M/MV5BMjMzODc2NzU5MV5BMl5BanBnXkFtZTgwNTMwMTE3NjM@._V1_SX300.jpg",
+   
     },
+    {
+      Title: "The Rockiys",
+      Year: "1021",
+      Runtime: "1 min",
+      Poster:
+        "https://m.media-amazon.com/images/M/MV5BMjIwMjE1Nzc4NV5BMl5BanBnXkFtZTgwNDg4OTA1NzM@._V1_SX300.jpg",
+   
+    }
   ];
   return (
     <>
