@@ -48,9 +48,19 @@ function App() {
    
     }
   ];
+
+
+
+
+
   return (
     <>
       <div className="App">
+      {
+        {/* (()=>{
+
+        })() */}
+      }
         <Header/>
         <div className="movie">
           {Movies.map((data,i) => {
